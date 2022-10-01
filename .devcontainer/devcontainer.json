@@ -41,6 +41,7 @@
   
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "cd /usr/local/bin && sudo curl https://spin.fermyon.dev/downloads/install.sh | sudo bash",
+  "postCreateCommand": "go install -v golang.org/x/tools/gopls@latest",
 
   "postAttachCommand": "rustup target add wasm32-wasi",
 
