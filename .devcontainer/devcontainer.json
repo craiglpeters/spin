@@ -31,7 +31,8 @@
     "serayuzgur.crates",
     "fermyon.autobindle",
     "golang.Go",
-    "grain-lang.vscode-grain"
+    "grain-lang.vscode-grain",
+    "rust-analyzer"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
