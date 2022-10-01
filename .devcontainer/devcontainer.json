@@ -40,7 +40,7 @@
   // Use 'onCreateCommand' to run commands when the container is first created.
   
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "cd /usr/local/bin && sudo curl https://spin.fermyon.dev/downloads/install.sh | bash",
+  "postCreateCommand": "cd /usr/local/bin && sudo curl https://spin.fermyon.dev/downloads/install.sh | sudo bash",
 
   "postAttachCommand": "rustup target add wasm32-wasi",
 
