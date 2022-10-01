@@ -127,11 +127,13 @@ $ export RUST_LOG=spin=trace
 ```
 
 Spin will instantiate all components from the application manifest, and
-will create the router configuration for the HTTP trigger accordingly. The
-component can now be invoked by making requests to `http://localhost:3000/hello`
-(see route field in the configuration):
+will create the router configuration for the HTTP trigger accordingly. 
 
-Note that Codespaces prompts you because a port was exposed and forwarded automatically
+## Viewing in Codespaces
+If you are running in Codespaces port 3000 will automatically be forwarded for you. You'll need to append your HTTP path (e.g. /hello)
+
+## Running locally
+The component can now be invoked by making requests to `http://localhost:3000/hello`
 
 ```
 $ curl -i localhost:3000/hello
