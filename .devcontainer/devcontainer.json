@@ -33,6 +33,11 @@
     "golang.Go",
     "grain-lang.vscode-grain"
   ],
+    
+    "ghcr.io/devcontainers/features/git-lfs:1": {
+     "version": "latest"
+}
+
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
