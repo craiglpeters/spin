@@ -1,3 +1,10 @@
+## Start a codespace
+
+Either click this button, 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=devcontainer-demo&repo=543749548)
+
+or use the drop down for starting a codespace from the template button on the repo code page
+
 ## Creating a new Spin application from a template
 
 Spin helps you create a new application based on templates:
