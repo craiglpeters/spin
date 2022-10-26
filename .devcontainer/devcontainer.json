@@ -14,11 +14,10 @@
           "gid": "1000",
           "upgradePackages": "true"
       },
-      "ghcr.io/devcontainers/features/rust:1": "latest"
+      "ghcr.io/devcontainers/features/rust:1": "latest",
+      "./spin:1": "latest"
   },
-  "overrideFeatureInstallOrder": [
-      "ghcr.io/devcontainers/features/common-utils"
-  ],
+
 // Configure tool-specific properties.
 "customizations": {
   // Configure properties specific to VS Code.
@@ -50,10 +49,6 @@
 
 // Use 'postCreateCommand' to run commands after the container is created.
 // "postCreateCommand": "rustc --version",
-
-// Use 'onCreateCommand' to run commands when the container is first created.
-// Here we download and install spin - this will be built into the Codespaces prebuild
-"onCreateCommand": "cd /usr/local/bin && sudo curl https://spin.fermyon.dev/downloads/install.sh | sudo bash",
 
 // Use 'postCreateCommand' to run commands after the container is created.
 // Here we install gopls in case you are using golang with spin
