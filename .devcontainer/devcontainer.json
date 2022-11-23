@@ -62,16 +62,11 @@
 },
 "forwardPorts": [3000],
 
-// Use 'postCreateCommand' to run commands after the container is created.
-// "postCreateCommand": "rustc --version",
-
-// Use 'postCreateCommand' to run commands after the container is created.
 // Here we install gopls in case you are using golang with spin
-"postCreateCommand": "go install -v golang.org/x/tools/gopls@latest",
+"onCreateCommand": "go install -v golang.org/x/tools/gopls@latest",
 
 // Use 'postAttachCommand' to to run each time your client has successfully attached to the container
-// For Rust templates you need the wasm32-wasi target. You can add it using rustup:rustup target add wasm32-wasi.
-"postAttachCommand": "rustup target add wasm32-wasi",
+"postAttachCommand": "rust-server": "rustup target add wasm32-wasi",
 
 // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 "remoteUser": "vscode"
