@@ -15,7 +15,7 @@
           "upgradePackages": "true"
       },
       "ghcr.io/devcontainers/features/rust:1": "latest",
-      "./spin:1": "latest"
+      "./spin": "latest"
   },
 
 // Configure tool-specific properties.
@@ -41,6 +41,11 @@
       "golang.Go",
       "grain-lang.vscode-grain",
       "serayuzgur.crates"
+    ]
+  },
+  "codespaces": {
+    "openFiles": [
+      "quickstart-codespaces.md"
     ]
   }
 },
